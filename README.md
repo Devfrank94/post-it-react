@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Post-it React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrizione
+Post-it è una web app che permette l'inserimento di note come se fossero dei post-it da appendere sulla propria bacheca.
 
-## Available Scripts
+## Funzionalità
+- Aggiunta di un nuovo post-it con titolo e contenuto.
+- Visualizzazione di tutti i post-it in bacheca.
+- Eliminazione dei post-it già inseriti.
 
-In the project directory, you can run:
+## Tecnologie Utilizzate
+<div style= "display: flex;  justify-content: center; gap: 40px">
+  <div>
+    <h3>React</h3>
+    <img src="https://skillicons.dev/icons?i=react" />
+  </div>
+  <div>
+    <h3>NodeJS</h3>
+    <img src="https://skillicons.dev/icons?i=nodejs" />
+  </div>
+  <div>
+    <h3>SASS</h3>
+    <img src="https://skillicons.dev/icons?i=sass" />
+  </div>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installazione e Avvio Locale
+1. Clona il repository sul tuo computer locale.
+2. Naviga nella directory del progetto.
+3. Installa le dipendenze con il comando `npm install` o `npm i`.
+4. Avvia l'applicazione con il comando `npm start`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Come Utilizzare
+1. Apri il tuo browser e vai all'indirizzo `localhost:3000` per utilizzare l'applicazione.
+2. Nella parte superiore dello schermo, inserisci il titolo e il contenuto del post-it, dopodichè premi sul simbolo `+` per aggiungerla. Se necessario, clicca sul simbolo della gomma per ripulire i campi.
+3. Le note inserite verranno visualizzate a schermo. Cliccando sul simbolo del cestino, puoi cancellare il post-it corrispondente.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ricorda, tutte le note vengono salvate solo localmente sul tuo dispositivo e non vengono inviate o salvate su un server.
