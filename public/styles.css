@@ -1,0 +1,79 @@
+/* Reset page */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General Rules */
+
+html {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+/* Style Header */
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+/* Style post-it */
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  
+  h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: green;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: red;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+/* Style Footer */
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #8e8e8e;
+}
