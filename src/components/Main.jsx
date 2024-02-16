@@ -6,21 +6,21 @@ console.log(notes);
 
 function createNote(note){
   return (<Note 
-  key={note.id}
+  key={note.key}
   title={note.title}
   content={note.content}
   />
 
-  )
+  );
 }
 
 function Main() {
     return (
-      <main>
+      <div>
         {notes.map((createNote))}
-      </main>
+      </div>
+        
       
-
     );
 }
 export default Main;
