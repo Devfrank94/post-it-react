@@ -6,7 +6,7 @@ function CreateArea() {
       <form>
         <input name="title" placeholder="Titolo" />
         <textarea name="content" placeholder="Scrivi qui..." rows="3" />
-        <button>Add</button>
+        <button><span class="material-symbols-outlined">post_add</span></button>
       </form>
     </div>
   );
