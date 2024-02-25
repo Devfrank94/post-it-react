@@ -1,28 +1,24 @@
 const notes = [
   {
-    key: 1,
-    title: "Delegation",
-    content:
-      "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem"
+    "key": 1,
+    "title": "Delega",
+    "content": "Un buon leader delega le attività in modo efficace. Affidare compiti ad altri non significa mancanza di fiducia, ma valorizzare le competenze del team e ottimizzare il proprio tempo."
   },
   {
-    key: 2,
-    title: "Loops",
-    content:
-      "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat."
+    "key": 2,
+    "title": "Ciclo di apprendimento",
+    "content": "Imparare è un processo ciclico: sperimenta, osserva, analizza, correggi e ripeti. Ogni ciclo ti avvicina sempre più alla padronanza di un'abilità."
   },
   {
-    key: 3,
-    title: "Arrays",
-    content:
-      "Q. Why did the programmer quit his job? A. Because he didn't get arrays."
+    "key": 3,
+    "title": "Dati organizzati",
+    "content": "Gli array sono strutture utili per organizzare dati in sequenza. Immagina una lista della spesa, ogni elemento è un'informazione precisa e l'ordine ha un significato."
   },
   {
-    key: 4,
-    title: "Hardware vs. Software",
-    content:
-      "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software."
+    "key": 4,
+    "title": "Hardware e software",
+    "content": "L'hardware è la componente fisica di un computer, il software è il programma che lo fa funzionare. Sono due facce della stessa medaglia, indispensabili per svolgere qualsiasi attività."
   }
-];
+]
 
 export default notes;
