@@ -21,6 +21,11 @@ function CreateArea(props) {
 
   function submitNote(event){
     props.onAdd(note);
+    //  Resetto il form
+    setNote({
+      title: "",
+      content: ""
+    });
     //  Prevenire il comportamento di default dell'html (ricaricare la pagina)
     event.preventDefault();
   }
