@@ -1,4 +1,5 @@
 # Post-it React
+<img style="width: 60%; max-width: 70%;"  src="./public/post-it-react.png">
 
 ## Descrizione
 Post-it è una web app che permette l'inserimento di note come se fossero dei post-it da appendere sulla propria bacheca.
