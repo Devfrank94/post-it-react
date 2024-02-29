@@ -1,11 +1,10 @@
 import React from "react";
+import NoteAlt from '@mui/icons-material/NoteAlt';
 
 function Header() {
     return (
       <header>
-        <span className="material-symbols-rounded">
-        sticky_note_2
-        </span>
+        <NoteAlt fontSize="large"/>
           <h1>Post-it React</h1> 
         
       </header> 

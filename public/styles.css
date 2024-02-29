@@ -14,7 +14,8 @@ html {
   overflow: hidden;
 }
 body {
-  background: #eee;
+  background-color: #c29467;
+  background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
 }
 /* ************************************** */
 
@@ -25,39 +26,37 @@ header {
   align-items: center;
   vertical-align: baseline;
   background-color: rgb(0, 136, 255);
+  color: white;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-.material-symbols-rounded {
-  color: white;
-  margin-right: 5px;
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 700,
-  'GRAD' 0,
-  'opsz' 48
-}
-
-
 header h1 {
-  color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
 /* ************************************** */
 
+.container{
+  display: grid;
+  place-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* Style post-it */
 
 .note {
+  position: relative;
   background: #ffff99;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
+  width: 200px;
+  aspect-ratio: 1/1;
   margin: 16px;
-  float: left;
   
   h1 {
     font-size: 1.1em;
@@ -80,27 +79,19 @@ header h1 {
 }
 
 .note button {
-  position: relative;
-  float: right;
+  position: absolute;
   background: rgb(0, 136, 255);
   color: #fff;
   box-shadow: 0 2px 5px #ccc;
   border: none;
   border-radius: 50%;
-  margin-right: 10px;
+  top: 10px;
+  right: 10px;
   border: none;
   width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
 }
 /* ************************************** */
 
@@ -108,7 +99,7 @@ header h1 {
 
 form {
   position: relative;
-  width: 480px;
+  width: 300px;
   margin: 30px auto 20px auto;
   background: #ffff99;
   padding: 15px;
@@ -125,21 +116,19 @@ form textarea {
   font-size: 1.2em;
   font-family: inherit;
   resize: none;
+  font-weight: 400;
+  font-style: normal;
 }
 
 form input{
   color: rgb(0, 136, 255);
   font-family: "Protest Riot", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 form textarea {
   font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
-form button {
+form .button {
   position: absolute;
   right: 18px;
   bottom: -18px;
