@@ -15,8 +15,8 @@ Post-it è una web app che permette l'inserimento di note come se fossero dei po
     <img src="https://skillicons.dev/icons?i=react" />
   </div>
   <div>
-    <h3>NodeJS</h3>
-    <img src="https://skillicons.dev/icons?i=nodejs" />
+    <h3>Material UI</h3>
+    <img style="margin-left: 20px" src="https://skillicons.dev/icons?i=materialui" />
   </div>
   <div>
     <h3>SASS</h3>
